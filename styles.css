@@ -1,0 +1,200 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+    padding: 16px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #E5E7EB; 
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.title1 {
+    font-size: 48px;
+    font-style: extra-bold;
+    color: #F9FAF8;
+    font-weight: bolder;
+    line-height: 0.8;
+    margin-bottom: 16px;
+}
+
+.text1 {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: lighter;
+    margin-bottom: 16px;
+}
+
+.button1 {
+    border: none;
+    border-radius: 5px;
+    background: #3882f6;
+    color: white;
+    padding: 8px 24px;
+}
+
+.container1 {
+    background-color: #1f2937;
+    display: flex;
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 {
+    flex: display;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 150px;
+    padding: 24px;
+    margin: 24px;
+    margin-bottom: 48px;
+    flex-shrink: 0;
+}
+
+
+
+.image1{
+    color: white;
+    background: gray;
+}
+
+#whitehorsepic img {
+    width: 400px;
+    height: 200px;
+    left: 0px;
+    right: 0px;
+
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.title2 {
+     font-size: 36px;
+     font-weight: bold;
+}
+
+.box2 {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 48px;     
+}
+
+.randomInfo {
+    width: 100px;
+    padding: 16px;
+}
+
+#horsepic1 img {
+    border: 2px solid;
+    border-color: #3882f6;
+    border-radius: 5px;
+    width: 100px;
+    height: 90px;
+}
+
+.container3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+}
+
+.author {
+    font-size: 24px;
+    text-align: end;
+    width: 750px;
+}
+
+.quote {
+    font-size: 36px;
+    padding: 24px;
+    width: 750px;
+    text-align: center;
+    color: gray;
+}
+
+.container4 { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3 {
+    color: white;
+    background-color: #3882f6;
+    width: 550px;
+    margin: 48px;
+    padding: 24px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.actionButton {
+    border: 1px solid;
+    border-color: white;
+    border-radius: 5px;
+    background: #3882f6;
+    padding: 12px 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+}
